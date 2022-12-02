@@ -24,6 +24,17 @@ Resource terraform для ЯО
 - [Route table](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/vpc_route_table)
 - [Compute Instance](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/compute_instance)
 ---
+
+
+## Ответ: 
+
+Устанавливаем YC, Terraform - или как в моем случае - обновляем до актуальных версий, проводим первичную инициализацию в облаке путем задания первичных параметров (токен, идентификаторы облака, рабочей папки и зоны доступности):
+
+
+![image](https://user-images.githubusercontent.com/92969676/205218453-e49fba3c-81e9-40be-8e62-3e0047ecfd90.png)
+
+
+
 ## Задание 2*. AWS (необязательное к выполнению)
 
 1. Создать VPC.
