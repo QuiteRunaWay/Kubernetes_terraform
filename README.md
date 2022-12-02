@@ -30,7 +30,7 @@ Resource terraform для ЯО
 
 Устанавливаем YC, Terraform - или как в моем случае - обновляем до актуальных версий, проводим первичную инициализацию в облаке путем задания первичных параметров (токен, идентификаторы облака, рабочей папки и зоны доступности):
 
-![image](https://user-images.githubusercontent.com/92969676/205218649-05b7f119-0b2e-4101-b422-26753abae3ee.png)
+![image](https://user-images.githubusercontent.com/92969676/205219818-de70608f-c4b4-4f49-9406-70803a873ee7.png)
 
 ![image](https://user-images.githubusercontent.com/92969676/205219433-a57536c2-844d-4bcd-b74d-18d0ce2160b0.png)
 
