@@ -77,28 +77,3 @@ Resource terraform для ЯО
 По окончанию: удаляем за собой всю инфраструктуру:
 
 ![image](https://user-images.githubusercontent.com/92969676/205616808-6da1f674-d16c-4442-9525-42085c708a85.png)
-
-
-## Задание 2*. AWS (необязательное к выполнению)
-
-1. Создать VPC.
-- Cоздать пустую VPC с подсетью 10.10.0.0/16.
-2. Публичная подсеть.
-- Создать в vpc subnet с названием public, сетью 10.10.1.0/24
-- Разрешить в данной subnet присвоение public IP по-умолчанию. 
-- Создать Internet gateway 
-- Добавить в таблицу маршрутизации маршрут, направляющий весь исходящий трафик в Internet gateway.
-- Создать security group с разрешающими правилами на SSH и ICMP. Привязать данную security-group на все создаваемые в данном ДЗ виртуалки
-- Создать в этой подсети виртуалку и убедиться, что инстанс имеет публичный IP. Подключиться к ней, убедиться что есть доступ к интернету.
-- Добавить NAT gateway в public subnet.
-3. Приватная подсеть.
-- Создать в vpc subnet с названием private, сетью 10.10.2.0/24
-- Создать отдельную таблицу маршрутизации и привязать ее к private-подсети
-- Добавить Route, направляющий весь исходящий трафик private сети в NAT.
-- Создать виртуалку в приватной сети.
-- Подключиться к ней по SSH по приватному IP через виртуалку, созданную ранее в публичной подсети и убедиться, что с виртуалки есть выход в интернет.
-
-Resource terraform
-- [VPC](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
-- [Subnet](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
-- [Internet Gateway](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway)
