@@ -34,7 +34,7 @@ Resource terraform для ЯО
 
 ![image](https://user-images.githubusercontent.com/92969676/205219433-a57536c2-844d-4bcd-b74d-18d0ce2160b0.png)
 
-![image](https://user-images.githubusercontent.com/92969676/205218453-e49fba3c-81e9-40be-8e62-3e0047ecfd90.png)
+![image](https://user-images.githubusercontent.com/92969676/205617863-9f926184-2e5a-46cd-b821-1f58cfb348fa.png)
 
 Файлы конфигураций приложил.
 
