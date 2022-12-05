@@ -36,6 +36,27 @@ Resource terraform для ЯО
 
 ![image](https://user-images.githubusercontent.com/92969676/205218453-e49fba3c-81e9-40be-8e62-3e0047ecfd90.png)
 
+Файлы конфигураций приложил.
+
+В файле ```main.tf``` содержится информация по создаваемых VM и первоначальная информация по облаку и сети. Убирать в переменные не стал, информация не критичная, но можно было бы урать в переменные.
+
+В файл ```variables.tf``` для примера положил информацию о зоне, в которой будут подниматься виртуальные машины.
+
+В файл ```network.tf``` вынес всю информацию о создаваемых сетях, подсетях и о таблице маршрутизации.
+
+По итогу план проходит корректно:
+
+![image](https://user-images.githubusercontent.com/92969676/205613803-76e351b5-041f-4a51-aa51-1e19cac45960.png)
+
+Инфраструктура поднимается:
+
+![image](https://user-images.githubusercontent.com/92969676/205614703-7d5ee123-772d-44aa-b558-4fa84e1d34f4.png)
+
+![image](https://user-images.githubusercontent.com/92969676/205614771-545e1d57-3625-43d5-a646-208c84f4ea48.png)
+
+![image](https://user-images.githubusercontent.com/92969676/205614849-29a695a8-4702-48fc-8aed-a4e8f68a1e11.png)
+
+![image](https://user-images.githubusercontent.com/92969676/205614942-ba17b4a9-336e-4cad-a471-9f850c555953.png)
 
 
 ## Задание 2*. AWS (необязательное к выполнению)
